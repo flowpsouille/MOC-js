@@ -7,3 +7,8 @@ install:
 
 after_success:
   - npm test
+
+deploy:
+  provider: heroku
+  api_key: c02e3474-80da-4f53-a199-7341b1192b75
+  app: new-app-js
